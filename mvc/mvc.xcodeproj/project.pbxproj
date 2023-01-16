@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		7EB964E92974BB45003C3654 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB964E82974BB45003C3654 /* AppDelegate.swift */; };
 		7EB964EB2974BB45003C3654 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB964EA2974BB45003C3654 /* SceneDelegate.swift */; };
-		7EB964ED2974BB45003C3654 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB964EC2974BB45003C3654 /* ViewController.swift */; };
+		7EB964ED2974BB45003C3654 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB964EC2974BB45003C3654 /* Controller.swift */; };
 		7EB964F02974BB45003C3654 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EB964EE2974BB45003C3654 /* Main.storyboard */; };
 		7EB964F22974BB46003C3654 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EB964F12974BB46003C3654 /* Assets.xcassets */; };
 		7EB964F52974BB46003C3654 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EB964F32974BB46003C3654 /* LaunchScreen.storyboard */; };
 		7EB965002974BB46003C3654 /* mvcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB964FF2974BB46003C3654 /* mvcTests.swift */; };
 		7EB9650A2974BB46003C3654 /* mvcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB965092974BB46003C3654 /* mvcUITests.swift */; };
 		7EB9650C2974BB46003C3654 /* mvcUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB9650B2974BB46003C3654 /* mvcUITestsLaunchTests.swift */; };
+		7EB9651C2974C1FF003C3654 /* AppleProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB9651B2974C1FF003C3654 /* AppleProduct.swift */; };
+		7EB9651E2974C6DD003C3654 /* CustomPrettyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB9651D2974C6DD003C3654 /* CustomPrettyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,7 @@
 		7EB964E52974BB45003C3654 /* mvc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mvc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EB964E82974BB45003C3654 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EB964EA2974BB45003C3654 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7EB964EC2974BB45003C3654 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7EB964EC2974BB45003C3654 /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
 		7EB964EF2974BB45003C3654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7EB964F12974BB46003C3654 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EB964F42974BB46003C3654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		7EB965052974BB46003C3654 /* mvcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mvcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EB965092974BB46003C3654 /* mvcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mvcUITests.swift; sourceTree = "<group>"; };
 		7EB9650B2974BB46003C3654 /* mvcUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mvcUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7EB9651B2974C1FF003C3654 /* AppleProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleProduct.swift; sourceTree = "<group>"; };
+		7EB9651D2974C6DD003C3654 /* CustomPrettyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPrettyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +103,11 @@
 		7EB964E72974BB45003C3654 /* mvc */ = {
 			isa = PBXGroup;
 			children = (
+				7EB9651A2974BEFD003C3654 /* Model */,
+				7EB965192974BEF4003C3654 /* View */,
+				7EB965182974BED9003C3654 /* Controller */,
 				7EB964E82974BB45003C3654 /* AppDelegate.swift */,
 				7EB964EA2974BB45003C3654 /* SceneDelegate.swift */,
-				7EB964EC2974BB45003C3654 /* ViewController.swift */,
 				7EB964EE2974BB45003C3654 /* Main.storyboard */,
 				7EB964F12974BB46003C3654 /* Assets.xcassets */,
 				7EB964F32974BB46003C3654 /* LaunchScreen.storyboard */,
@@ -125,6 +131,30 @@
 				7EB9650B2974BB46003C3654 /* mvcUITestsLaunchTests.swift */,
 			);
 			path = mvcUITests;
+			sourceTree = "<group>";
+		};
+		7EB965182974BED9003C3654 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7EB964EC2974BB45003C3654 /* Controller.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7EB965192974BEF4003C3654 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7EB9651D2974C6DD003C3654 /* CustomPrettyView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7EB9651A2974BEFD003C3654 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7EB9651B2974C1FF003C3654 /* AppleProduct.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +288,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EB964ED2974BB45003C3654 /* ViewController.swift in Sources */,
+				7EB9651C2974C1FF003C3654 /* AppleProduct.swift in Sources */,
+				7EB964ED2974BB45003C3654 /* Controller.swift in Sources */,
+				7EB9651E2974C6DD003C3654 /* CustomPrettyView.swift in Sources */,
 				7EB964E92974BB45003C3654 /* AppDelegate.swift in Sources */,
 				7EB964EB2974BB45003C3654 /* SceneDelegate.swift in Sources */,
 			);
